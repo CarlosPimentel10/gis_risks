@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+build/
+dist/
+
+# Vite
+.vite/
+*.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/tmp/
+
+# Logs
+logs/
+*.log
+pids/*.pid
+*.seed
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE or editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+*.lcov
+
+# Miscellaneous
+*.tgz
+*.zip
